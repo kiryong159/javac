@@ -1,0 +1,32 @@
+.greeting-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 170px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.greeting-box h1 {
+  font-size: 70px;
+}
+
+.greeting-box:hover {
+  transform: scale(1.05, 1.1);
+}
+
+.greeting input {
+  background: transparent;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 15px;
+}
+.greeting input:focus {
+  outline: none;
+}

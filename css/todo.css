@@ -1,0 +1,13 @@
+.form-box {
+  display: flex;
+  justify-content: center;
+  height: 518px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.form-box:hover {
+  transform: scale(1.05, 1.05);
+}

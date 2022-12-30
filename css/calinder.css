@@ -1,0 +1,14 @@
+.calinder {
+  display: flex;
+  justify-content: center;
+  height: 380px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.calinder:hover {
+  transform: scale(1.05, 1.07);
+}
