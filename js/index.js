@@ -15,7 +15,7 @@ function hello() {
   const namee = localStorage.getItem("username_key");
   h1.classList.remove("hidden");
   h12.classList.remove("hidden");
-  h1.innerText = `HELLO !!`;
+  h1.innerText = `Greetings!!`;
   h12.innerText = `${namee}`;
 }
 
