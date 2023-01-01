@@ -41,7 +41,6 @@ body img {
 }
 .left {
   width: 60%;
-  border-right: 1px solid rgba(0, 0, 0, 0.082);
 }
 .right {
   width: 40%;

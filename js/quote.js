@@ -47,3 +47,13 @@ const whoo = document.querySelector(".quote-box span:last-child");
 
 quotee.innerText = todayquote.quote;
 whoo.innerText = `-${todayquote.who}-`;
+
+const quoteBox = document.querySelector(".quote-box");
+
+quoteBox.addEventListener("click", clickquote);
+
+function clickquote() {
+  const todayquote = quotes[Math.floor(Math.random() * quotes.length)];
+  quotee.innerText = todayquote.quote;
+  whoo.innerText = `-${todayquote.who}-`;
+}
