@@ -5,6 +5,7 @@
 @import "css/quote.css";
 @import "css/calinder.css";
 @import "css/todo.css";
+@import "css/cal.css";
 
 * {
   box-sizing: border-box;
