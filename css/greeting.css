@@ -21,13 +21,14 @@
 }
 
 .greeting input {
+  width: 190px;
   background: transparent;
   font-size: 20px;
   border: none;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .greeting input:focus {
   outline: none;
