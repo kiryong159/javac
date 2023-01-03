@@ -15,7 +15,21 @@
             <input type="text" placeholder="이름을 적어주세요" required />
           </form>
           <h1 class="hidden"></h1>
-          <h1 class="secondh1 hidden"></h1>
+          <div class="music-box">
+            <div>
+              <span>BGM</span>
+              <button class="music-btn music-on">ON</button>
+              <button class="music-btn music-pause">Pause</button>
+              <button class="music-btn music-off">OFF</button>
+            </div>
+            <div class="vol-box">
+              <span>VOL</span>
+              <input type="range" class="vol-control" min="1" max="10" />
+            </div>
+          </div>
+          <button class="changebg">배경 바꾸기</button>
+          <!-- <h1 class="secondh1 hidden"></h1> -->
+          <!-- <audio class="audiiio" controls loop src="LemonadeDiary.mp3"></audio> -->
         </div>
         <div class="day-box">
           <div class="day-year">
@@ -61,7 +75,8 @@
         </div>
         <div class="quote-box">
           <div class="quote-box-box">
-            <span></span>
+            <span>Today Quote</span>
+            <span class="firstspan"></span>
             <span></span>
           </div>
         </div>
@@ -74,6 +89,7 @@
   <script src="js/quote.js"></script>
   <script src="js/todo.js"></script>
   <script src="js/calinder.js"></script>
+  <script src="js/bgm.js"></script>
   <script
     src="https://kit.fontawesome.com/157b3c4d50.js"
     crossorigin="anonymous"

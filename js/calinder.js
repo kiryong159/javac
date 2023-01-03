@@ -59,6 +59,16 @@ function renderCAL(thisMonth) {
         "</div>";
     }
   }
+  //오늘날자 표시하기
+  const today = new Date();
+  if (
+    currentMonth === today.getMonth() &&
+    currentYear === today.getFullYear()
+  ) {
+    const todayDate = today.getDate();
+    let currentMonthDate = document.querySelectorAll(".current");
+    currentMonthDate[todayDate - 1].classList.add("today");
+  }
 }
 const goPrev = document.querySelector(".go-prev");
 const goNext = document.querySelector(".go-next");
@@ -75,3 +85,14 @@ function nextcal() {
   thisMonth = new Date(currentYear, currentMonth + 1, 1);
   renderCAL(thisMonth);
 }
+
+// if (
+//   currentMonth + 1 === today.getMonth() + 1 &&
+//   currentYear === today.getFullYear()
+// ) {
+//   for (let a of document.querySelectorAll(".current")) {
+//     if (+a.innerText === today.getDate()) {
+//       a.classList.add("today");
+//     }
+//   }
+// }

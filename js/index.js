@@ -2,6 +2,7 @@ const loginform = document.querySelector(".greeting");
 const logininput = document.querySelector(".greeting input");
 const h1 = document.querySelector(".greeting-box h1");
 const h12 = document.querySelector(".greeting-box .secondh1");
+//const audio = document.querySelector("greeting-box .audiiio");
 
 function handleSubmit(event) {
   event.preventDefault();
@@ -14,9 +15,10 @@ function handleSubmit(event) {
 function hello() {
   const namee = localStorage.getItem("username_key");
   h1.classList.remove("hidden");
-  h12.classList.remove("hidden");
-  h1.innerText = `Greetings!!`;
-  h12.innerText = `${namee}`;
+  //audio.classList.remove("hidden");
+  // h12.classList.remove("hidden");
+  h1.innerText = `Greetings!! ${namee}`;
+  // h12.innerText = ``;
 }
 
 if (localStorage.getItem("username_key") !== null) {

@@ -1,0 +1,37 @@
+.music-btn {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.music-btn:hover {
+  cursor: pointer;
+}
+.music-box {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.vol-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.vol-box input[type="range"] {
+  -webkit-appearance: none;
+  border: 1px solid black;
+  background: transparent;
+  outline: none;
+  border-radius: 10px;
+}
+
+.music-box span {
+  margin-right: 10px;
+}

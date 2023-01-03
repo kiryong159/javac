@@ -11,6 +11,11 @@
 .quote-box span:first-child {
   font-size: 18px;
   font-weight: bold;
+}
+
+.quote-box .firstspan {
+  font-size: 18px;
+  font-weight: bold;
   word-break: break-all;
 }
 

@@ -8,3 +8,14 @@ const body = document.querySelector("body");
 bodyimg.src = imgselect;
 
 body.appendChild(bodyimg);
+
+const changebtn = document.querySelector(".changebg");
+
+changebtn.addEventListener("click", changebg);
+
+function changebg() {
+  const imgselect = imgs[Math.floor(Math.random() * imgs.length)];
+  bodyimg.src = imgselect;
+
+  body.appendChild(bodyimg);
+}

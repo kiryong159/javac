@@ -42,7 +42,7 @@ const quotes = [
 
 const todayquote = quotes[Math.floor(Math.random() * quotes.length)];
 
-const quotee = document.querySelector(".quote-box span:first-child");
+const quotee = document.querySelector(".quote-box-box .firstspan");
 const whoo = document.querySelector(".quote-box span:last-child");
 
 quotee.innerText = todayquote.quote;

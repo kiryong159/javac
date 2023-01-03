@@ -6,7 +6,7 @@
 @import "css/calinder.css";
 @import "css/todo.css";
 @import "css/cal.css";
-
+@import "css/bgm.css";
 * {
   box-sizing: border-box;
 }
@@ -35,6 +35,18 @@ body img {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.changebg {
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 10px;
+  padding: 2px 15px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.changebg:hover {
+  cursor: pointer;
 }
 
 .hidden {
