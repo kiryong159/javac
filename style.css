@@ -67,3 +67,21 @@ body img {
 .todo-box input {
   width: 100%;
 }
+
+.snowflake {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -1px;
+}
+
+@keyframes fall {
+  0% {
+  }
+  100% {
+    transform: translateY(93vh);
+    opacity: 0;
+  }
+}
